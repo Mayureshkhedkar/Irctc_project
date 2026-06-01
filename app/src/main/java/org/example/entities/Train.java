@@ -68,6 +68,7 @@ public class Train {
         this.stations = stations;
     }
 
+    public Train (){}
     //to get the info of a train
     public String getTrainInfo(){
         return String.format("TrainId: %s TrainNo: %s",trainId,trainNo );

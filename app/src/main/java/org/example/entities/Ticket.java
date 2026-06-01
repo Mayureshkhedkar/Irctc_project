@@ -79,6 +79,6 @@ public class Ticket {
 
     //method to return the Tickets information
     public String getTicketInfo(){
-        return String.format("TicketId: %s belongs to User %s from %s to %s on %s.",ticketId,userId,source,destination,dateOfTravel)
+        return String.format("TicketId: %s belongs to User %s from %s to %s on %s.",ticketId,userId,source,destination,dateOfTravel);
     }
 }

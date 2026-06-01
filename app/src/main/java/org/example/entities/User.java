@@ -16,7 +16,6 @@ public class User {
 
 
     //getter and setter
-
     public String getName() {
         return name;
     }
